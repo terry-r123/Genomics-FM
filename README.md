@@ -1,6 +1,6 @@
-# Large Multi-Omics Model
-This repository includes the 'Large Omics Model' project in the AI4science bio group.  
-More related papers and results can be seen at https://aicarrier.feishu.cn/drive/folder/fldcnH9djm1ITptZLrLNV9Uu5Ke.
+# Geomics-FM
+This repository includes the 'Genomics-FM' project.  
+
 ## 1. Environment setup
 
 
@@ -17,12 +17,12 @@ conda activate dnalm
 #### 1.2 Install the package and other requirements
 
 (Required)
-Personally, I recommend fresh students use some stable version of Pytorch to match our 3090 GPU cluster such as 1.7.1, which has been verified.
+Personally, I recommend fresh students use some stable version of Pytorch to match 3090 GPU cluster such as 1.7.1, which has been verified.
 ```
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
-git clone https://github.com/terry-r123/Large-Multi-Omics-Model.git
-cd Large-Multi-Omics-Model
+git clone https://github.com/terry-r123/Genomics-FM.git
+cd Genomics-FM
 python3 -m pip install --editable .
 cd examples
 python3 -m pip install -r requirements.txt
