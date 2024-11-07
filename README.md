@@ -1,5 +1,5 @@
 # Geomics-FM
-This repository includes the 'Genomics-FM' project.  
+This repository includes the 'Genomics-FM: Universal Foundation Model for Versatile and Data-Efficient Functional Genomic Analysis' project.  
 
 ## 1. Environment setup
 
